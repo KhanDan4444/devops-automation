@@ -6,7 +6,7 @@ pipeline {
         maven "mvn 3.6.3"
     }
 
-    stages {6666
+    stages {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository (replace 'your-git-repository-url' with your actual Git repository URL)
