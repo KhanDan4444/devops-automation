@@ -6,11 +6,11 @@ pipeline {
         maven "mvn 3.6.3"
     }
 
-    stages {
+    stages {6666
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository (replace 'your-git-repository-url' with your actual Git repository URL)
-checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'git@github.com:KhanDan4444/devops-automation.git', credentialsId: 'jenkins']]])
+checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'git@github.com:KhanDan4444/devops-automation.git', credentialsId: 'jj444']]])
             }
         }
 
