@@ -18,7 +18,7 @@ checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[u
             steps {
                 // Build using Maven
                 script {
-                    def mavenHome = tool 'Maven 3.6.3'
+                    def mavenHome = tool 'mvn 3.6.3'
                     sh "${mavenHome}/bin/mvn clean install"
                 }
             }
