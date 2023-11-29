@@ -5,8 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringbootBackendApplication {
-//yeap dnai
+//yeap dnai hhhbsjhkjhkj
 	public static void main(String[] args) {
+		System.out.println("hello");
 		SpringApplication.run(SpringbootBackendApplication.class, args);
 	}
 
