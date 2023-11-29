@@ -1,4 +1,4 @@
-FROM openjdk:21-oracle
+FROM openjdk:17-jdk-slim
 COPY target/*.jar spring-backend.jar
-EXPOSE 7070
+EXPOSE 7171
 ENTRYPOINT ["java","-jar","spring-backend.jar"]
